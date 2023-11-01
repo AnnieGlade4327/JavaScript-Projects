@@ -19,5 +19,6 @@ window.alert(stringTest);
 
 document.write(" <br> Nadia told Lazlo, <br> \"I cannot even utter his Name--\" <br> \"I don't give a f***, his name was Mike.\" Lazlo responded.");
 
-document.write("<br>\"
-This is how we talk in Tuscan Arizoña\" -Lazlo");
+document.write("<br> \"This is how we talk in Tuscan Arizoña\" -Lazlo"
++ " <br> \"We drank the blood of some people, but the people were on drugs," 
++ " and now I\'m a wizard.\" -Nandor");
