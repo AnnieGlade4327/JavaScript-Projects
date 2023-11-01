@@ -33,5 +33,5 @@ document.write(coChairs);
 document.write(coCoChair);
 document.write(assistant);
 
-document.write(3 + 7)
+document.write(3 + 7);
 document.write(3*3*43);
