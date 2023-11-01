@@ -10,7 +10,7 @@ function my_second_function() {
 //probably has to be a way to make it so you can click through and display diff texts each time? 
 
 //+- will concatenate a string. <p id="Concatenate"></p> //assigning an id in HTML
-<p id= "Concatenate" onClick = "testFunction()">Click Here!</p>
+
 
 function testFunction() {
     var sentence = "I am learning";
