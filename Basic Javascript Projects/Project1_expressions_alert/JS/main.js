@@ -18,3 +18,6 @@ var stringTest = "This is a string";
 window.alert(stringTest);
 
 document.write(" <br> Nadia told Lazlo, <br> \"I cannot even utter his Name--\" <br> \"I don't give a f***, his name was Mike.\" Lazlo responded.");
+
+document.write("<br>\"
+This is how we talk in Tuscan Arizoña\" -Lazlo");
