@@ -1,13 +1,3 @@
-var Math = "addition";
-function addition() {
-  var addition = 2 + 2;
-  document.getElementById("Math").innerHTML = "2 + 2 = " + addition;
-}
-
-function subtraction() {
-  var subtraction = 5 - 2;
-  document.getElementById("Math").innerHTML = "5 - 2 = " + subtraction;
-}
 function display(val) {
   document.getElementById("result").value += val;
 
@@ -23,3 +13,19 @@ function solve() {
 
   return y;
 }
+
+function negation_Operator() {
+  var x = 10;
+  document.getElementById("Math").innerHTML = -x;
+  document.write(Math);
+}
+
+window.alert(Math.random());
+window.alert(Math.random() * 100);
+
+var Q = 5;
+Q++;
+document.write(Q);
+var P = 5.25;
+P--;
+document.write(P);
