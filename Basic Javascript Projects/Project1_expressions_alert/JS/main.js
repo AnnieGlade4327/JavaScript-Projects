@@ -10,3 +10,6 @@ document.write('Hello World! 3');
 
 var X = " Hello, World!";
 document.write(X);
+
+var frog = " This is a frog";
+document.write(frog);
