@@ -1,5 +1,4 @@
 
-window.alert("Hello World!");
 function my_first_function() {
     var str = "This Will be the Text of the Button, or Whatever is to display/link";
     document.getElementById("button_text").innerHTML =str;
