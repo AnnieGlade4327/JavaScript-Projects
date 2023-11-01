@@ -16,3 +16,5 @@ document.write(frog);
 
 var stringTest = "This is a string";
 window.alert(stringTest);
+
+document.write(" <br> Nadia told Lazlo, <br> \"I cannot even utter his Name--\" <br> \"I don't give a f***, his name was Mike.\" Lazlo responded.");
