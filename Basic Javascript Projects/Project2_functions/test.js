@@ -15,9 +15,9 @@ function solve() {
 }
 
 function myNumber() {
-    document.getElementById("result").value = Math.SQRT;
+    document.getElementById("result").value = Math.SQRT(x);
 }
 
 function clearScreen() {
-  document.getElementById("result").value = y;
+  document.getElementById("result").value = "";
 }
