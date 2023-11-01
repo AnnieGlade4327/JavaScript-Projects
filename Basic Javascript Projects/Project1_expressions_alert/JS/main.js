@@ -11,5 +11,9 @@ document.write('Hello World! 3');
 var X = " Hello, World!";
 document.write(X);
 
-var frog = " This is a frog";
+var frog = " This is a list of frogs";
 document.write(frog);
+
+let name = "FrogNames";
+let greeting = "List of " + FrogNames + "!";
+console.log(greeting); // Output: "Hello John!"
