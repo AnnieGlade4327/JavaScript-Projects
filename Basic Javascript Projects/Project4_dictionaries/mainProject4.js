@@ -1,4 +1,4 @@
-function Animal_List() {
+function Animal_List() { //kvp targeting something to display the genus
     var Animal = {
         Class: "Mammalia",
         Genus: "Antilocapra",
@@ -9,7 +9,7 @@ function Animal_List() {
     document.getElementById("Animal_List").innerHTML = Animal.Genus;
 }
 
-function Dictionary() {
+function Dictionary() { //making another function to display the sound
     var Animal = {
         Class: "Mammalia",
         Genus: "Antilocapra",
@@ -29,6 +29,7 @@ function this_Dictionary() {
         Sound: "tick, tchick, tcherrick",
     };
     delete Animal.Class;
-    document.getElementById("this_Dictionary").innerHTML = Animal.Class;
+    document.getElementById("this_Dictionary").innerHTML = Animal.Class; //it is working but, what is odd is bc of how I targeted the id's and what I labeled where, 
+    //I am not understanding why undefined pops up first no matter which ordfer the script or html is it.  but this is the final submission for assign bc it is functional!
 }
 
