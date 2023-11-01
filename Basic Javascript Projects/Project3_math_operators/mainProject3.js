@@ -1,8 +1,7 @@
 
 
-function display(mathObjects) {
-  document.getElementById("mathObjects").innerHTML = Math.round(4.6);
-}
+window.alert(Math.random());
+window.alert(Math.random() * 100);
 
 function display(val) {
   document.getElementById("result").value += val;
@@ -26,9 +25,6 @@ function negation_Operator() {
   document.write(Math);
 }
 
-window.alert(Math.random());
-window.alert(Math.random() * 100);
-
 var Q = 5;
 Q++;
 document.write(Q);
@@ -36,4 +32,9 @@ var P = 5.25;
 P--;
 document.write(P);
 
+
+function display(mathObjects) {
+  document.getElementById("mathObjects").innerHTML = Math.round(4.6);
+  document.write(mathObjects);
+}
 
