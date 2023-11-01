@@ -24,4 +24,11 @@ document.write("<br> \"This is how we talk in Tuscan Arizoña\" -Lazlo"
 + " and now I\'m a wizard.\" -Nandor");
 
 var B = "<br>Concatenated" + " String";
-document.write(B);
+document.write(B); //concatenated string value added to variable and displayed.
+
+var vampiricCouncil = "<br>Vampiric Council:<br>", coChairs = "Nadia and Nandor<br>", coCoChair = "Lazlo<br>",
+assistant = "Guillermo";
+document.write(vampiricCouncil);
+document.write(coChairs);
+document.write(coCoChair);
+document.write(assistant);
