@@ -35,3 +35,14 @@ document.write(assistant);
 
 document.write(3 + 7);
 document.write(3*3*43);
+//Here is an actual function (this is JavaScript code – it would be written within the external .js file):
+
+function my_first_function() {
+    var str = "this is the button txt";
+    document.getElementById("button_text").innerHTML =str;
+}
+
+var sent1 = "<br>This is the beginning of the string";
+var sent2 = "<br>and this is the end of the string";
+document.write(sent1
+    + sent2);
