@@ -27,8 +27,11 @@ var B = "<br>Concatenated" + " String";
 document.write(B); //concatenated string value added to variable and displayed.
 
 var vampiricCouncil = "<br>Vampiric Council:<br>", coChairs = "Nadia and Nandor<br>", coCoChair = "Lazlo<br>",
-assistant = "Guillermo";
+assistant = "Guillermo<br>";
 document.write(vampiricCouncil);
 document.write(coChairs);
 document.write(coCoChair);
 document.write(assistant);
+
+document.write(3 + 7)
+document.write(3*3*43);
