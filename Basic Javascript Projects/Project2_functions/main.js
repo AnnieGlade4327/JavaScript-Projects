@@ -17,3 +17,24 @@ function testFunction() {
     sentence += " a lot from this book!";
     document.getElementById("Concatenate").innerHTML = sentence;
 }
+
+
+
+const calculate = document.getElementById('calculate');
+const first = document.getElementById('first');
+const second = document.getElementById('second');
+const res = document.getElementById('res');
+
+function calcul() {
+  const one = parseFloat(first.value) || 0;
+  const two = parseFloat(second.value) || 0;
+  console.log(first * second);
+}
+
+res.addEventListener('click', calcul);
+
+
+let nouveau = document.createElement('div');
+nouveau.id = 'nouveau';
+nouveau.textContent = "nouveau";
+calculate.appendChild(nouveau);
