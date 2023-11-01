@@ -46,3 +46,10 @@ var sent1 = "<br>This is the beginning of the string";
 var sent2 = "<br>and this is the end of the string";
 document.write(sent1
     + sent2);
+
+
+var Math = "Addition";
+    function addition_Function() {
+        var Addition = 2 + 2;
+        document.getElementById("Math").innerHTML = "2 + 2 = " + Addition;
+    }
