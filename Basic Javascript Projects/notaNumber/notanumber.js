@@ -22,3 +22,16 @@ console.log("false");
 
 document.write(10==10);
 document.write(3==11);
+
+//Now, remember, a single equal sign assigns a variable. Here is a way we could utilize === in JavaScript:
+X = 82;
+Y = "82";
+document.write(X === Y);
+
+X = 82;
+Y = "82";
+document.write(X === Y);
+
+A = "Magnus";
+B = "Magnus";
+document.write(A === B);
