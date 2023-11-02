@@ -1,3 +1,4 @@
+console.log(2 +2);
 function my_Function() {
   document.getElementById("Test").innerHTML = 0 / 0;
 }
@@ -16,4 +17,5 @@ function my_Function() {
   document.write(10>2);
 
   document.write(10<2);
-  
+
+
