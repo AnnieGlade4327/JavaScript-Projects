@@ -30,6 +30,6 @@ function this_Dictionary() {
     };
     delete Animal.Class;
     document.getElementById("this_Dictionary").innerHTML = Animal.Class; //it is working but, what is odd is bc of how I targeted the id's and what I labeled where, 
-    //I am not understanding why undefined pops up first no matter which order the script or html is it.  but this is the final submission for assign bc it is functional!
+    //I am not understanding why undefined pops up first no matter which order the script or html p id's are in.  but this is the final submission for assign bc it is functional!
 }
 
