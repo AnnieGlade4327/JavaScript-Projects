@@ -16,4 +16,8 @@ function full_sentence() {
         var Section = Sentence.slice(27, 33);
         document.getElementById("Slice").innerHTML = Section;
     }
-
+function search() {
+let sentence = "Here We Are Going To Search for letters";
+let position = sentence.search("Going");
+document.getElementById("search").innerHTML=position;
+}
