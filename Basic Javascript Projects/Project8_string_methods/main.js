@@ -24,5 +24,10 @@ document.getElementById("search").innerHTML=position;
 //calling a numbers method using toString()
 function string_Method() {
     var X = (30285600 * 5000000000000000);
-    document.getElementById("Numbers_to_string").innerHTML=X.toString();
+    document.getElementById("Numbers_to_string").innerHTML=X.toString();}
+
+    function precision_Method(){
+    var Y = 5.6782389328347293847293847;
+    document.getElementById("Precision").innerHTML = Y.toPrecision(10);
 }
+
