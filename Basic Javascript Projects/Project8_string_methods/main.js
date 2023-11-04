@@ -21,3 +21,8 @@ let sentence = "Here We Are Going To Search for letters";
 let position = sentence.search("Going");
 document.getElementById("search").innerHTML=position;
 }
+
+function string_Method() {
+    var X = 182;
+    document.getElementById("Numbers_to_string").innerHTML=X.toString();
+}
