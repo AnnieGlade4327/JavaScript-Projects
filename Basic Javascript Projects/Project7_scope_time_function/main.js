@@ -8,6 +8,7 @@ document.write(X = 100);
 }
 Add_Numbers_1();
 Add_Numbers_2();
+
 //Local variable
 function Add_numbers_1() {
     var x = 10;
@@ -18,6 +19,7 @@ function Add_numbers_1() {
     }
     Add_numbers_1();
     Add_numbers_2();
+    
 //using console.log to check for errors
 function Add_numbers_1() {
     var x = 10;
