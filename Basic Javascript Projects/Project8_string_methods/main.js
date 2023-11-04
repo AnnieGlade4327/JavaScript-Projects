@@ -7,3 +7,12 @@ function full_sentence() {
     document.getElementById("Concatenate").innerHTML = whole_sentence;
     }
     
+    // The numbers indicate which characters in your string will be cut out and 
+    //displayed. This code would display “Johnny.”::
+
+    function slice_Method() {
+        var Sentence = "All work and no play makes Johnny a dul boy.";
+        var Section = Sentence.slice(27, 33);
+        document.getElementById("Slice").innerHTML = Section;
+    }
+
