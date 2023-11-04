@@ -11,7 +11,7 @@ function full_sentence() {
     //displayed. This code would display “Johnny.”::
 
     function slice_Method() {
-        var Sentence = "All work and no play makes Johnny a dul boy.";
+        var Sentence = "All work and no play makes Johnny a dull boy.";
         var Section = Sentence.slice(27, 33);
         document.getElementById("Slice").innerHTML = Section;
     }
