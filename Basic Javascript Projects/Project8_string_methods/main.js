@@ -21,8 +21,8 @@ let sentence = "Here We Are Going To Search for letters";
 let position = sentence.search("Going");
 document.getElementById("search").innerHTML=position;
 }
-
+//calling a numbers method using toString()
 function string_Method() {
-    var X = 182;
+    var X = (30285600 * 5000000000000000);
     document.getElementById("Numbers_to_string").innerHTML=X.toString();
 }
