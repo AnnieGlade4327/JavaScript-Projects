@@ -13,6 +13,6 @@ function Nest_Function()
     function Plus_one() //adding 1
     {Starting_point += 1;}
     Plus_one();
-    return Starting_point; //returns the new amnt which should display as 10, 9 (starting point) + 1.
+    return Starting_point; //returns the new amnt which should display as 10: 9 (starting point) + 1.
         }
     }

@@ -13,7 +13,7 @@ function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML =
     "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model + " manufactured in " + Erik.Vehicle_Year;
 }
-
+//assigning/creating a function
 function Coffee(Drink, Size, Milk, Temp) {
     this.Coffee_Drink = Drink;
     this.Coffee_Size = Size;
@@ -22,7 +22,7 @@ function Coffee(Drink, Size, Milk, Temp) {
 }
 
 var customer = new Coffee("Mocha", 12 + "oz", "Whole", "Iced");
-
+//running the function and utilizing "new and this" keywords
 function newFunction () {
     document.getElementById("New_and_This").innerHTML =
     "Customer order: " + customer.Coffee_Drink + customer.Coffee_Size + customer.Coffee_Milk + customer.Coffee_Temp;
