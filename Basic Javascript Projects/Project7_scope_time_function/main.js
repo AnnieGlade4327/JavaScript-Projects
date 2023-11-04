@@ -47,3 +47,13 @@ function Age_Function() {
   }
   document.getElementById("How_old_are_you?").innerHTML = Vote;
 }
+
+function Credit_Function() {
+  Age = document.getElementById("Credits").value;
+  if (Credits >= 100) {
+    Go = "You have enough Credits!";
+  } else {
+    Go = "You Do Not Have Enough Credits!";
+  }
+  document.getElementById("Do_You_Have_Enough_Credits?").innerHTML = Go;
+}
