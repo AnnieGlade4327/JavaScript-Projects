@@ -12,4 +12,5 @@ else {
     Reply = "It is evening time.";
 }
 document.getElementById("Time").innerHTML = Reply;
+console.log("reply");
 }
