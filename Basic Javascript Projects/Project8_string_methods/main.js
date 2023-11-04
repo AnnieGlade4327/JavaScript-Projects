@@ -35,3 +35,8 @@ function string_Method() {
     document.getElementById("Precision").innerHTML = Y.toPrecision(10);
 }
 
+function fixed_Method() {
+let num = 7.843454565673255646546456;
+let n = num.toFixed(4);
+document.getElementById("fixed").innerHTML = n;
+}
