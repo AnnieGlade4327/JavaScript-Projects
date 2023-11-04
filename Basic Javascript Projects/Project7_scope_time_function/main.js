@@ -32,7 +32,7 @@ Add_numbers_1();
 Add_numbers_2();
 
 function get_Date() {
-    if (new Date().getHours() < 18) {
+    if (new Date().getHours() <= 18) {
         document.getElementById("Greeting").innerHTML = "How is your day today?";
     }
     console.log("Greetings");
