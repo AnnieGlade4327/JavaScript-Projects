@@ -26,6 +26,10 @@ function string_Method() {
     var X = (30285600 * 5000000000000000);
     document.getElementById("Numbers_to_string").innerHTML=X.toString();}
 
+    //creating the function and calling inner html to round Y to nearest 10 decimals.
+    //I was unable to figure out how to link it to var X even if i placed the function
+    //in the brackets, so I made another p id and onclick with a new object/variable.
+
     function precision_Method(){
     var Y = 5.6782389328347293847293847;
     document.getElementById("Precision").innerHTML = Y.toPrecision(10);
