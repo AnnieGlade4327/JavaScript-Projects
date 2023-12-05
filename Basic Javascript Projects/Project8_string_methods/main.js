@@ -40,3 +40,9 @@ let num = 7.843454565673255646546456;
 let n = num.toFixed(4);
 document.getElementById("fixed").innerHTML = n;
 }
+//setting the velue to text so the results are the same.
+function valueOf_Method() {
+    let text = "Here We Will Practice using the valueOf Method.";
+    let result = text;
+    document.getElementById("valueOf").innerHTML=result;
+}
