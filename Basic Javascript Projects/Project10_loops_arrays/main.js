@@ -24,6 +24,16 @@ function animal_Pics() {
 
 function constant_function() {
     const Instrument = {type: "saxophone", brand:"Yamaha", color: "Gold"};
-    Instrament.size = "Tenor";
-    Instrament.
+    Instrument.size = "Tenor";
+    Instrument.price = "$1,000";
+    document.getElementById("Constant").innerHTML = "The cost of the " + Instrument.type + " was " + Instrument.price;
+
 }
+
+var X = 82;
+document.write(X);
+{
+    let X = 33;
+    document.write("<br>" + X);
+}
+document.write("<br>" + X);
