@@ -37,3 +37,8 @@ document.write(X);
     document.write("<br>" + X);
 }
 document.write("<br>" + X);
+
+function piFunction() {
+    return Math.PI;
+}
+document.getElementById("return_statement").innerHTML = piFunction();
