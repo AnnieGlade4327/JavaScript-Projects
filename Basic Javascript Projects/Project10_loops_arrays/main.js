@@ -30,15 +30,13 @@ function constant_function() {
 
 }
 
-var X = 82;
-document.write(X);
-{
-    let X = 33;
-    document.write("<br>" + X);
-}
-document.write("<br>" + X);
-
-function piFunction() {
-    return Math.PI;
-}
-document.getElementById("return_statement").innerHTML = piFunction();
+let something  = {
+    make: "A Make ",
+    model: "A Model ",
+    year: "A Year",
+    color: "A Color",
+    description : function() {
+        return "The something is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementById("Something_Object").innerHTML = something.description();
