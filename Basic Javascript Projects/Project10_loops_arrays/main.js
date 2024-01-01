@@ -19,5 +19,11 @@ function animal_Pics() {
     Animal_Picture[2] = "Pronghorn Antelope";
     Animal_Picture[3] = "Mountain Lion";
     document.getElementById("Animal").innerHTML = "This is a picture of a " + Animal_Picture[2] + ".";
-    
+
+}
+
+function constant_function() {
+    const Instrument = {type: "saxophone", brand:"Yamaha", color: "Gold"};
+    Instrament.size = "Tenor";
+    Instrament.
 }
